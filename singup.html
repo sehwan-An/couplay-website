@@ -28,27 +28,108 @@
             </li>
         </ul>
 
-<div class="logo">
-    <img src="" alt="">
-</div>
-<nav>
-    <ul>
-        <li>
-            <a href="">SHOPPING</a>
-        </li>
-        <li>
-            <a href="">SALES</a>
-        </li>
-        <li>
-            <a href="">EVENT</a>
-        </li>
-    </ul>
-</nav>
+        <div class="logo">
+            <img src="images/logo-Photoroom 1.png" alt="커플레이">
+            <p>커플레이</p>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">SHOPPING</a>
+                </li>
+                <li>
+                    <a href="">SALES</a>
+                </li>
+                <li>
+                    <a href="">EVENT</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
 
+
+        <form autocapitalize="off" id="signup_form"></form>
+        <fieldset>
+            <legend class="screen_out">가입구분</legend>
+            <h2>가입구분</h2>
+            <table>
+                <tr>
+                    <th>회원구분</th>
+                    <td>
+                        <label>
+                            <input type="radio" name="member_type" id="member_type1" checked value="0">개인회원
+                        </label>
+                        <label>
+                            <input type="radio" name="member_type" id="member_type2" value="1">사업자회원
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend></legend>
+            <table>
+                <tr>
+                    <th><label for="user_id"></label>아이디</th>
+                    <td><input type="text" name="user_id" id="user_id"></td>
+                </tr>
+                <tr>
+                    <th><label for="user_pw"></label>비밀번호</th>
+                    <td><input type="text" name="user_pw" id="user_pw"></td>
+                </tr>
+                <tr>
+                    <th><label for="user_name"></label>이름</th>
+                    <td><input type="text" name="user_name" id="user_name"></td>
+                </tr>
+                <tr>
+                    <th><label for="user_phone"></label>연락처</th>
+                    <td>
+                        <select name="first_digit" id="first_digit">
+                            <option>국번</option>
+                            <option value="010"></option>
+                            <option value="02"></option>
+                            <option value="061"></option>
+                            <option value="062"></option>
+                            <option value="064"></option>
+                        </select>
+                        <input type="text" name="second_digit" id="second_digit" maxlength="4">
+                        <input type="text" name="third_digit" id="third_digit" maxlength="4">
+                    </td>
+                </tr>
+                <tr>
+                    <th>SNS 수신여부</th>
+                    <td>
+                        <input type="checkbox" name="user_sns" id="user_sns">수신함
+                    <th>
+                        <label for="user_sns"></label>
+                    </th>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="user_mail">이메일</label></th>
+                    <td>
+                        <input type="email" name="email" id="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><label for="user_avatar">프로필이미지</label></th>
+                    <td>
+                        <input type="file" name="user_avatar" id="user_avatar">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+
+
     </main>
     <footer>
+        <p>광주광역시 서구 쌍천동 한울직업전문학교 4층 402호</p>
 
     </footer>
 
