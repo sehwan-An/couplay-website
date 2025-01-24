@@ -87,14 +87,16 @@
                     <th><label for="user_phone"></label>연락처</th>
                     <td>
                         <select name="first_digit" id="first_digit">
-                            <option>국번</option>
-                            <option value="010"></option>
-                            <option value="02"></option>
-                            <option value="061"></option>
-                            <option value="062"></option>
-                            <option value="064"></option>
+                            <option value="국번">국번</option>
+                            <option value="010">010</option>
+                            <option value="02">02</option>
+                            <option value="061">061</option>
+                            <option value="062">062</option>
+                            <option value="064">064</option>
                         </select>
+                        -
                         <input type="text" name="second_digit" id="second_digit" maxlength="4">
+                        -
                         <input type="text" name="third_digit" id="third_digit" maxlength="4">
                     </td>
                 </tr>
@@ -112,6 +114,8 @@
                     <th><label for="user_mail">이메일</label></th>
                     <td>
                         <input type="email" name="email" id="email">
+                        @
+                        <input type="email" name="email" id="email2">
                     </td>
                 </tr>
 
@@ -124,12 +128,32 @@
             </table>
         </fieldset>
 
+        <button>가입</button>
+        <button>취소</button>
 
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="">이용약관</a>
+                </li>
+                <li>
+                    <a href="">개인정보취급방침</a>
+                </li>
+                <li>
+                    <a href="">이용안내</a>
+                </li>
+                <li>
+                    <a href="">고객센터</a>
+                </li>
+            </ul>
+        </nav>
 
 
     </main>
     <footer>
         <p>광주광역시 서구 쌍천동 한울직업전문학교 4층 402호</p>
+        <p>copyright &copy; 2017 couplay All Right Reserved.</p>
 
     </footer>
 
